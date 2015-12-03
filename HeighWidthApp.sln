@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeighWidthApp.WinPhone", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeighWidthApp", "HeighWidthApp\HeighWidthApp\HeighWidthApp.csproj", "{AFB902A6-2C81-44A6-A35A-1BC7C40A6F7A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{C74DBC8B-68CB-4CD1-B6A4-16F921CBB1AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -226,5 +228,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BC0B0B4-E7F6-47B1-9F70-5B900C20805C} = {C74DBC8B-68CB-4CD1-B6A4-16F921CBB1AD}
+		{11958C90-1109-4E3E-896D-ADEEE9AA431B} = {C74DBC8B-68CB-4CD1-B6A4-16F921CBB1AD}
+		{1F19C2CD-7FD2-4CDB-A495-C86271F5CAF2} = {C74DBC8B-68CB-4CD1-B6A4-16F921CBB1AD}
 	EndGlobalSection
 EndGlobal

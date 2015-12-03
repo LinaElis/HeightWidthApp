@@ -13,7 +13,7 @@ namespace HeighWidthApp
         public App()
         {
             // The root page of your application
-            MainPage = new TextboxPage();
+            MainPage = new OrientationPage();
         }
 
         protected override void OnStart()
